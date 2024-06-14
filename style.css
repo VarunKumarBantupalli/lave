@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@200;400&family=Roboto+Condensed:wght@500&family=Roboto:ital,wght@1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: black;
+}
+
+body {
+    background: black;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(47, 46, 46);
+    position: relative;
+    z-index: 20;
+}
+
+nav {
+    display: flex;
+    max-width: 78vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 93px;
+}
+
+nav img {
+    
+    width: 156px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+nav button img {
+    height: 38px;
+    width: auto;
+    padding: 0;
+    background-color: #1d9234;
+    border: 3px solid black;
+    opacity: 1;
+}
+
+.main {
+    background-image: url(back.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainText {
+    height: calc(100% - 93px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Martel', sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.mainText> :nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.mainText> :nth-child(2) {
+    font-weight: 700px;
+    font-size: 36px;
+    color: #1d9234;
+    text-align: center;
+    font-weight: 600;
+}
+
+.mainText> :nth-child(3) {
+    font-weight: 700px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.mainButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.box .mainButtons input {
+    padding: 13px 10px 13px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: white;
+    font-weight: 500;
+    color: black;
+    border: 3px solid black;
+}
+
+.setLocationCheckbox {
+    display: none;
+}
+
+.setLocationButton {
+    padding: 13px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #1d9234;
+    font-weight: lighter;
+    color: black;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.setLocationCheckbox:checked+.setLocationButton {
+    background-color: gray;
+}
+
+
+
+.shit {
+    display: flex;
+    flex-direction: column;
+}
+
+.orders {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 100vw;  
+    background-color: white;
+
+
+}
+
+.box1 {
+    background-image: url(preorder.jpg);
+    margin-right: 10px;
+    height: 200px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 30px 30px 30px 30px;
+    border: 2px solid black;
+
+
+}
+
+.box1 span {
+    display: flex;
+    justify-content: baseline;
+    background-color: black;
+
+}
+
+.box2 {
+    background-image: url(dinning.jpg);
+    margin-left: 10px;
+    height: 200px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 30px 30px 30px 30px;
+    border: 2px solid black;
+    
+}
+
+.box2 span {
+    display: flex;
+    justify-content: last baseline;
+    background-color: black;
+}
+
+
+.ads {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 300px;
+    align-content: center;
+    margin: auto;
+    position: relative;
+
+}
+
+section.ads>div {
+    display: flex;
+    flex-direction: column;
+    padding: 54px 0;
+}
+
+section.ads>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.ads>div :nth-child(2) {
+    font-size: 24px;
+
+}
+.texts{
+    margin-right: 110px;
+}
+.ads img {
+    max-width: 100vw;
+    height: 300px;
+    width: auto;
+}
+.secondImg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; 
+    height: 500px; 
+    bottom: 53%;
+  }
+
+  .secondImg video {
+    position: absolute;
+    height: 163px;
+    width: auto;
+    bottom: 37.5%;
+    object-fit: contain; 
+  }
+
+.topicks {
+    display: flex;
+    margin-top: 100px ;
+    position: relative;
+    height: 300px;
+    justify-content: center;
+
+}
+
+.topicks img {
+
+    margin-right: 10px;
+    max-width: 100vw;
+    height: 210px;
+    width: auto;
+    padding: 0 10px;
+}
+
+.hiring {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hiring img {
+    padding: 10px 10px 0 0px;
+    max-width: 100vw;
+    height: 300px;
+    width: calc(auto +68px);
+    border-radius: 10%;
+}
+
+section.hiring>div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+section.hiring>div :nth-child(1) {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+section.hiring>div :nth-child(2) {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+.socialmedia {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.socialmedia .first {
+    justify-content: flex-start;
+}
+
+.socialmedia .second {
+    justify-content: flex-end;
+}
+
+
+
+footer {
+
+    background-color: rgb(65, 64, 64);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 350px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-column span {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}

@@ -1,0 +1,22 @@
+    <div class="main">
+        <nav>
+            <span><img width="68" src="laveLogo.svg" alt="Netflix logo"></span>
+            <div>
+                <button class="profile"> <a href="profile.html"><img src="profile.svg" alt="profile"></a></button>
+                <button class="cart"><a href="cart.html"><img src="cart.svg" alt="Cart"></a></button>
+            </div>
+        </nav>
+        <div class="box">
+        </div>
+        <div class="mainText">
+            <span>Pre Order & Reserve</span>
+            <span>"प्रतीक्षायां समयं मा यापयतु"।</span>
+            <span>We are there to serve you </span>
+            <div class="mainButtons">
+                <input type="text" placeholder="Enter Location">
+                <label for="locationCheckbox" class="setLocationLabel">
+                    <input type="checkbox" id="locationCheckbox" class="setLocationCheckbox">
+                    <span class="setLocationButton">Set Location</span>
+                </label>
+                <div class="separation"></div>
+    </div>

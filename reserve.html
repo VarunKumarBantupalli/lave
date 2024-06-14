@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reserve</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+
+<body>
+    <div class="reservation-container">
+        <h1>Table Reservation</h1>
+
+        <div class="search-section">
+            <label for="hotel-search">Select Hotel:</label>
+            <select id="hotel-search">
+                <option value="hotel1">Novotel</option>
+                <option value="hotel2">The Park</option>
+                <option value="hotel3">Mandi croods</option>
+                <option value="hotel3">click to get more</option>
+                
+            </select>
+        </div>
+
+        <div class="reservation-details">
+            <h2>Reservation Details</h2>
+            <form id="reservation-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required>
+
+                <input type="submit" value="Reserve">
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+</html>
